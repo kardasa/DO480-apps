@@ -25,5 +25,5 @@ spec:
         - containerPort: 8080
           name: budget-app
       imagePullSecrets:
-      - final-prod-deployer-pull-secret
+      - name: final-prod-deployer-pull-secret
 ---
